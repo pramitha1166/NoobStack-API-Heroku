@@ -12,10 +12,10 @@ import org.springframework.web.bind.annotation.RestController;
 import com.example.demo.model.Person;
 import com.example.demo.service.PersonService;
 
-@RequestMapping("api/v1/person")
+@RequestMapping("NoobStack/api/users")
 @RestController
 public class PersonController {
-	
+	String S = "11dsds";
 	private PersonService personService;
 
 	@Autowired
